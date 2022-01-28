@@ -4,4 +4,5 @@ from typing import List
 class Entities(BaseModel):
     entity_id: str
     entity_name: str
-    tags: List[str]
+    webhook_url: str
+    valid_tags: List[str]
